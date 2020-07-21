@@ -1,5 +1,5 @@
 - name: Restart a service
   host: all
-  win_service:
-    name: spooler
+  service:
+    name: httpd
     state: restarted
